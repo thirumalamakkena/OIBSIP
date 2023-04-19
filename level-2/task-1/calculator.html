@@ -1,57 +1,57 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="calculator.css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <div class="bg-container">
-      <div class="calci-conatiner">
-        <div class="display" id="display"></div>
-        <div class="numInput-container">
-          <input type="text" id="inputElement" class="num-input" />
+        <div class="calci-conatiner">
+            <div class="display" id="display"></div>
+            <div class="numInput-container">
+                <input type="text" id="inputElement" class="num-input" />
+            </div>
+            <div class="buttons-container">
+                <div class="rows-container">
+                    <button class="operator button" onclick="openPars()">(</button>
+                    <button class="operator button" onclick="closePars()">)</button>
+                    <button class="operator button" id="ans">ans</button>
+                    <button class="operator button" id="del">del</button>
+                    <button class="operator button" id="clear">clear</button>
+                </div>
+                <div class="rows-container">
+                    <button class="number button" onclick="num7()">7</button>
+                    <button class="number button" onclick="num8()">8</button>
+                    <button class="number button" onclick="num9()">9</button>
+                    <button class="operator button" onclick="mod()">%</button>
+                    <button class="operator button" onclick="root()">√</button>
+                </div>
+                <div class="rows-container">
+                    <button class="number button" onclick="num4()">4</button>
+                    <button class="number button" onclick="num5()">5</button>
+                    <button class="number button" onclick="num6()">6</button>
+                    <button class="operator button" onclick="mult()">X</button>
+                    <button class="operator button" onclick="div()">÷</button>
+                </div>
+                <div class="rows-container">
+                    <button class="number button" onclick="num1()">1</button>
+                    <button class="number button" onclick="num2()">2</button>
+                    <button class="number button" onclick="num3()">3</button>
+                    <button class="operator button" onclick="plus()">+</button>
+                    <button class="operator button" onclick="minus()">–</button>
+                </div>
+                <div class="rows-container">
+                    <button class="operator button" onclick="dot()">.</button>
+                    <button class="number button" onclick="num0()">0</button>
+                    <button class="operator button" onclick="negate()">±</button>
+                    <button class="enter-btn button" id="enter">Enter</button>
+                </div>
+            </div>
         </div>
-        <div class="buttons-container">
-          <div class="rows-container">
-            <button class="operator button" onclick="openPars()">(</button>
-            <button class="operator button" onclick="closePars()">)</button>
-            <button class="operator button" id="ans">ans</button>
-            <button class="operator button" onclick="del()">del</button>
-            <button class="operator button" id="clear">clear</button>
-          </div>
-          <div class="rows-container">
-            <button class="number button" onclick="num7()">7</button>
-            <button class="number button" onclick="num8()">8</button>
-            <button class="number button" onclick="num9()">9</button>
-            <button class="operator button" onclick="mod()">%</button>
-            <button class="operator button" onclick="root()">√</button>
-          </div>
-          <div class="rows-container">
-            <button class="number button" onclick="num4()">4</button>
-            <button class="number button" onclick="num5()">5</button>
-            <button class="number button" onclick="num6()">6</button>
-            <button class="operator button" onclick="mult()">X</button>
-            <button class="operator button" onclick="div()">÷</button>
-          </div>
-          <div class="rows-container">
-            <button class="number button" onclick="num1()">1</button>
-            <button class="number button" onclick="num2()">2</button>
-            <button class="number button" onclick="num3()">3</button>
-            <button class="operator button" onclick="plus()">+</button>
-            <button class="operator button" onclick="minus()">–</button>
-          </div>
-          <div class="rows-container">
-            <button class="operator button" onclick="dot()">.</button>
-            <button class="number button" onclick="num0()">0</button>
-            <button class="operator button" onclick="negate()">±</button>
-            <button class="enter-btn button" id="enter" onclick="enter()">
-              Enter
-            </button>
-          </div>
-        </div>
-      </div>
     </div>
     <script src="./calculator.js"></script>
-  </body>
+</body>
+
 </html>
