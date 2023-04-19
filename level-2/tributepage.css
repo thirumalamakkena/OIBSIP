@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+}
+
+.bg-container {
+  display: flex;
+}
+
+.timeline-container {
+  background-color: #ffffff;
+  width: 20%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.timeline-years-container{
+    width: 230px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.timeline-heading{
+    color: #000a13;
+    font-family: "Slab Serif";
+    font-weight: 100;
+    text-align: center;
+}
+
+.year{
+    color: #040200;
+    font-size: 26px;
+}
+
+.year-description{
+    color: #9e6492;
+    font-size: 16px;
+}
+
+.biography-container {
+  background-color: #00203f;
+  width: 80%;
+  height: 100vh;
+}
