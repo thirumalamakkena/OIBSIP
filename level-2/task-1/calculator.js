@@ -142,4 +142,8 @@ let div = () => inputElement.value += "/";
 let plus = () => inputElement.value += "+";
 let minus = () => inputElement.value += "-";
 let root = () => inputElement.value += "√";
+<<<<<<< HEAD
 let negate = () => inputElement.value += "±";
+=======
+let negate = () => inputElement.value += "±";
+>>>>>>> 0e776e2781231b58ba7f2033e46e0455bb8df576
